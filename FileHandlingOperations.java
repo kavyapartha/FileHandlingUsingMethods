@@ -5,7 +5,7 @@ import java.io.*;
 public class FileHandlingOperations{
     /**
      *
-     *Creating a new File
+     *Creating new file
      * @throws IOException
      */
     public static void createFile(String inputFile) throws IOException {
@@ -13,7 +13,7 @@ public class FileHandlingOperations{
         if (file.createNewFile()) {
             System.out.println("File created successfully");
         } else {
-            System.out.println("File already exists");
+            System.out.println("File already exists and can't create the file ");
         }
     }
 
